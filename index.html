@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+  <head>
+    <meta name="Content-Type" content="text/html;charset=utf-8" />
+    <meta name="viewport" content="width=device-width,initial-scale=1" />
+    <script src="https://cdn.jsdelivr.net/npm/jquery@3.6.0/dist/jquery.min.js"></script>
+    <script defer="defer" src="main.js?c1854d2b07a4ac868ac6"></script>
+    <link href="main.css?c1854d2b07a4ac868ac6" rel="stylesheet" />
+  </head>
+  <body>
+    <form>
+      <span class="logo"><a href=".">快照查询</a></span>
+      <input
+        id="url"
+        name="url"
+        autocomplete="on"
+        autocapitalize="off"
+        autocorrect="off"
+        maxlength="1024"
+        placeholder="http://www.domain.com/url"
+      />
+      <button type="submit">GO</button>
+    </form>
+    <span id="message"></span>
+    <div id="links">
+      <ul>
+        <li><a href=".">search this url in Google Cache</a></li>
+        <li><a href=".">百度搜索快照</a></li>
+        <li><a href=".">Bing搜索快照</a></li>
+      </ul>
+    </div>
+    <div id="viewer"><iframe name="iframe-viewer"></iframe></div>
+  </body>
+</html>
